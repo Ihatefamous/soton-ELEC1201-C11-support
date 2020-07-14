@@ -17,7 +17,7 @@
 #define RED         0xF800      
 #define MAGENTA     0xF81F      
 #define YELLOW      0xFFE0      
-#define YES			0xEA60
+#define YES			0xEA60 //addition color from Ihatefamous
 
 typedef enum {North, West, South, East} orientation;
 

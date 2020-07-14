@@ -4,22 +4,22 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../3.4.c \
 ../font.c \
 ../ili934x.c \
-../lcd.c 
+../lcd.c \
+../main.c 
 
 OBJS += \
-./3.4.o \
 ./font.o \
 ./ili934x.o \
-./lcd.o 
+./lcd.o \
+./main.o 
 
 C_DEPS += \
-./3.4.d \
 ./font.d \
 ./ili934x.d \
-./lcd.d 
+./lcd.d \
+./main.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
